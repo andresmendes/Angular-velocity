@@ -1,5 +1,5 @@
 %% Angular velocity
-% Simulation and animation of a rotating cube illustrating angular velocity
+% Simulation and animation of a rotating cube and its angular velocity
 % vector.
 %
 %%
@@ -87,8 +87,8 @@ plot3(x,y,z)
 %% Animation
 
 % Camera position setup:
-raio   = 10;                               % Raio de rotação da câmera
-th  = linspace(0,pi/2,length(time));    % Ângulo da varredura da câmera
+raio   = 10;                                % Radius camera position
+th  = linspace(0,pi/2,length(time));        % Angle sweep camera
 X   = raio*cos(th);
 Y   = raio*sin(th);
 
